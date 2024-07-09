@@ -1,5 +1,45 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+.sec {
+    background-color: rgb(196, 66, 6);
+    border-radius: 15px;
+}
+
+.parts {
+    background-color: rgb(248, 201, 131);
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: rgb(196, 66, 6);
+    font-style: italic;
+}
+
+.bottom {
+    font-style: italic;
+    color: rgb(4, 4, 65);
+}
+
+.main-heading {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(7, 7, 127);
+}
+
+.sec-heading {
+    text-align: center;
+    font-style: oblique;
+    font-family: cursive;
+    color: rgb(196, 66, 6);
+}
+
+.card {
+    /* border: none !important; */
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
