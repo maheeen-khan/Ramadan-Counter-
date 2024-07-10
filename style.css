@@ -30,6 +30,7 @@
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(7, 7, 127);
+    text-shadow: 5px 5px 5px rgb(170, 168, 168);
 }
 
 .sec-heading {
@@ -40,6 +41,6 @@
 }
 
 .card {
-    /* border: none !important; */
+    border: none !important;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
