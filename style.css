@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'myFont';
+    src: url(font/PlaywriteHU-VariableFont_wght.ttf);
+}
+
+.parts,#days{
+    font-family: 'myFont';
+}
+
 .sec {
     background-color: rgb(196, 66, 6);
     border-radius: 15px;
@@ -21,15 +30,15 @@
     font-style: italic;
 }
 
-.bottom {
+/* .bottom {
     font-style: italic;
-    color: rgb(4, 4, 65);
-}
+    color: rgb(196, 66, 6);
+} */
 
 .main-heading {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(7, 7, 127);
+    color: rgb(216, 87, 27);
     text-shadow: 5px 5px 5px rgb(170, 168, 168);
 }
 
@@ -43,6 +52,7 @@
 .card {
     border: none !important;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    background-color: rgb(255, 204, 141) !important;
 }
 
 .dots{

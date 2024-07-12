@@ -1,3 +1,5 @@
+function counter(){
+    
 var myDate = new Date();
 var curr = myDate.getTime();
 // document.write(curr);
@@ -11,22 +13,23 @@ var differenceInMS = nextRamadan - curr;
 // document.write("<br>"+ differenceInMS + " mili sec");
 
 var differenceInDays = differenceInMS / (1000 * 60 * 60 * 24) ;
-document.write(" <br><br>"+ Math.floor(differenceInDays)+ " days");
+// document.write(" <br><br>"+ Math.floor(differenceInDays)+ " days");
 
 var a = (differenceInDays - Math.floor(differenceInDays) ) * 24; //gives hours in decimal form
-document.write(" &nbsp"+ Math.floor(a) + " hours");
+// document.write(" &nbsp"+ Math.floor(a) + " hours");
 
 var b = (a - Math.floor(a) ) * 60;
 
-document.write(" &nbsp" + Math.floor(b)  + " minutes");
+// document.write(" &nbsp" + Math.floor(b)  + " minutes");
 
 var c = (b - Math.floor(b) ) * 60;
 
-document.write(" &nbsp" + Math.floor(c)  + " seconds");
+// document.write(" &nbsp" + Math.floor(c)  + " seconds");
 
 ///////////////////////////////////////////////////////////
+
 var day =  document.getElementById('days');
-day.innerHTML = "<h2>" + Math.floor(differenceInDays) + "</h2>Days";
+day.innerHTML = "<h1>" + Math.floor(differenceInDays) + "</h1>Days";
 
 var hour = document.getElementById('hours');
 hour.innerHTML = "<h2>" + Math.floor(a) + "</h2>Hours";
@@ -36,3 +39,7 @@ mins.innerHTML = "<h2>" + Math.floor(b) + "</h2>Minutes";
 
 var sec = document.getElementById('sec');
 sec.innerHTML = "<h2>" + Math.floor(c) + "</h2>Seconds";
+}
+
+setInterval('counter()', 1000);
+counter();
