@@ -52,9 +52,15 @@
 .card {
     border: none !important;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
-    background-color: rgb(255, 204, 141) !important;
+    background-color: rgb(251, 204, 148) !important;
 }
 
 .dots{
     color: rgb(248, 201, 131);
+}
+.parts{
+    color: rgb(139, 51, 10);  
+}
+#days{
+    color: rgb(196, 66, 6);  
 }

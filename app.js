@@ -32,13 +32,13 @@ var day =  document.getElementById('days');
 day.innerHTML = "<h1>" + Math.floor(differenceInDays) + "</h1>Days";
 
 var hour = document.getElementById('hours');
-hour.innerHTML = "<h2>" + Math.floor(a) + "</h2>Hours";
+hour.innerHTML = "<h5>" + Math.floor(a) + "</h5>Hours";
 
 var mins = document.getElementById('min');
-mins.innerHTML = "<h2>" + Math.floor(b) + "</h2>Minutes";
+mins.innerHTML = "<h5>" + Math.floor(b) + "</h5>Minutes";
 
 var sec = document.getElementById('sec');
-sec.innerHTML = "<h2>" + Math.floor(c) + "</h2>Seconds";
+sec.innerHTML = "<h5>" + Math.floor(c) + "</h5>Seconds";
 }
 
 setInterval('counter()', 1000);
