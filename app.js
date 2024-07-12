@@ -33,3 +33,6 @@ hour.innerHTML = "<h2>" + Math.floor(a) + "</h2>Hours";
 
 var mins = document.getElementById('min');
 mins.innerHTML = "<h2>" + Math.floor(b) + "</h2>Minutes";
+
+var sec = document.getElementById('sec');
+sec.innerHTML = "<h2>" + Math.floor(c) + "</h2>Seconds";
